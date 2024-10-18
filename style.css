@@ -1,0 +1,21 @@
+body {
+    color: brown;
+    background: lightpink;
+}
+header {
+    border-bottom: solid 2px rgb(255 243 243);
+    padding: 15px;
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(255 243 243);
+}
+section {
+    background: rgb(255, 243, 243);
+    padding-bottom: 40px;
+    padding-top: 40px;
+display: flex;
+justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+}

@@ -1,7 +1,9 @@
 body {
     color: brown;
     background: lightpink;
-}
+    font-family: "Playwrite GB S", cursive;
+      }
+      
 header {
     border-bottom: solid 2px rgb(255 243 243);
     padding: 15px;
@@ -9,13 +11,43 @@ header {
     font-style: italic;
     color: rgb(255 243 243);
 }
-section {
+.chamada {
     background: rgb(255, 243, 243);
     padding-bottom: 40px;
     padding-top: 40px;
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .chamada-texto{
     margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+}
+
+.categoria{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(255, 243, 243);
+
 }
